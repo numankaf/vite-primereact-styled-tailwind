@@ -1,0 +1,120 @@
+.surface-ground {
+  background-color: var(--surface-ground) !important;
+}
+
+.surface-section {
+  background-color: var(--surface-section) !important;
+}
+
+.surface-card {
+  background-color: var(--surface-card) !important;
+}
+
+.surface-overlay {
+  background-color: var(--surface-overlay) !important;
+}
+
+.surface-hover {
+  background-color: var(--surface-hover) !important;
+}
+
+.surface-border {
+  border-color: var(--surface-border) !important;
+}
+
+.focus\:surface-ground:focus {
+  background-color: var(--surface-ground) !important;
+}
+
+.hover\:surface-ground:hover {
+  background-color: var(--surface-ground) !important;
+}
+
+.active\:surface-ground:active {
+  background-color: var(--surface-ground) !important;
+}
+
+.focus\:surface-section:focus {
+  background-color: var(--surface-section) !important;
+}
+
+.hover\:surface-section:hover {
+  background-color: var(--surface-section) !important;
+}
+
+.active\:surface-section:active {
+  background-color: var(--surface-section) !important;
+}
+
+.focus\:surface-card:focus {
+  background-color: var(--surface-card) !important;
+}
+
+.hover\:surface-card:hover {
+  background-color: var(--surface-card) !important;
+}
+
+.active\:surface-card:active {
+  background-color: var(--surface-card) !important;
+}
+
+.focus\:surface-overlay:focus {
+  background-color: var(--surface-overlay) !important;
+}
+
+.hover\:surface-overlay:hover {
+  background-color: var(--surface-overlay) !important;
+}
+
+.active\:surface-overlay:active {
+  background-color: var(--surface-overlay) !important;
+}
+
+.focus\:surface-hover:focus {
+  background-color: var(--surface-hover) !important;
+}
+
+.hover\:surface-hover:hover {
+  background-color: var(--surface-hover) !important;
+}
+
+.active\:surface-hover:active {
+  background-color: var(--surface-hover) !important;
+}
+
+.focus\:surface-border:focus {
+  border-color: var(--surface-border) !important;
+}
+
+.hover\:surface-border:hover {
+  border-color: var(--surface-border) !important;
+}
+
+.active\:surface-border:active {
+  border-color: var(--surface-border) !important;
+}
+
+.text-primary {
+  color: var(--primary-color);
+}
+
+.card {
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  background: var(--surface-card);
+  padding: 16px;
+  box-sizing: border-box;
+  margin-bottom: 16px;
+  box-shadow: 0px 10px 40px rgba(41, 50, 65, 0.06);
+}
+
+.no-style-button {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
